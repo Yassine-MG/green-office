@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image: url(./img/fond.png);
+}
+@font-face{
+    font-family: "Oswald";
+    src:url(./oswald/Oswald-Regular.ttf) ;
+}
+.container{
+    background-color: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    background-color: #b8cb21;
+    padding: 20px;
+}
+nav,
+nav ul,
+nav ul li{
+    display: inline-block;
+}
+nav{
+    float: right;
+    margin: 30px 15px 0 0;
+    font-family: "Oswald", sans-serif;
+}
+nav ul li a{
+    color: #2c4722;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+/* MAIN */
+main{
+    padding: 20px;
+    overflow: auto;
+}
+main img{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+main h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #b8cb21;
+    margin: 20px;
+}
+.section-2{
+    margin-top: 50px;
+}
+main p{
+    font-size: 14px;
+    color: rgb(99, 96, 96);
+}
+main button{
+    background-color: #b8cb21;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    float: right;
+    transition: all ease 0.30s;
+    cursor: pointer;
+}
+main button:hover{
+    background-color: #2c4722;
+}
+main section ul li{
+    color:rgb(99, 96, 96);
+    font-size: 15px;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+}
+footer img{
+    width: 50px;
+    margin-top: 20px;
+}
+footer p{
+    color:rgb(99, 96, 96);
+    font-size: 13px;
+}
+.email{
+    color: blue;
+}
